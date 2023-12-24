@@ -1,0 +1,11 @@
+SQL Shell (psql) >
+    CREATE DATABASE cooldatabase;
+    \c cooldatabase;
+    CREATE TABLE units(id SERIAL PRIMARY KEY, name VARCHAR(255), title VARCHAR(255), price VARCHAR(255), img VARCHAR(255));
+    INSERT INTO units(id, name, title, price, img) VALUES (1, coolname, cooltitle, coolprice, coolimg); 
+^копируйте по одной бога ради
+
+VSCode Terminal (это здесь (ctrl + Ё)) > 
+    npm install pg cors express nodemon
+    npm run dev
+^копируйте по одной бога ради
